@@ -1,0 +1,148 @@
+html {
+	overflow:  hidden;
+}
+
+ul {
+	list-style-type: none;
+	float: right;
+}
+
+.panel-header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+li.navObject {
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom:  10px;
+}
+
+a.panel-items {
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+}
+
+a.panel-items:hover {
+	text-decoration: underline;
+}
+
+img.apps {
+	position: relative;
+    top: 5px;
+}
+
+img.notification {
+	position: relative;
+    top: 5px;
+}
+
+img.user_icon {
+	margin-right: 20px;
+	position: relative;
+    top: 5px;
+}
+
+.main {
+	margin: auto;
+	text-align: center;
+}
+
+img.logo {
+    margin-top: 170px;
+    height:92px;
+    width:272px;
+}
+
+.search {
+	display: block;
+	margin: auto;
+	height: 35px; 
+	width: 570px;
+	margin-top: 20px;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+}
+
+.search-mic {
+	float: right;
+	position: relative;
+	right: 675px;
+    bottom: 33px;
+}
+
+.search-buttons {
+	height: 35px;
+	width: 150px;
+	font-family: Arial,sans-serif;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+    color: #757575;
+	margin-top: 25px;
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 0 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 3px;
+}
+
+.search-buttons:hover {
+	align-items: flex-start;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	color: #222222;
+}
+
+.panel-footer {
+	border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.left {
+	float: left;
+	padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+}
+.right {
+	float: right;
+	padding-right: 20px;
+	padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a.left-items { 
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    padding: 10px;
+}
+
+a.left-items:hover {
+	text-decoration: underline;
+}
+
+a.right-items {
+	text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    padding: 10px;
+}
+
+a.right-items:hover {
+	text-decoration: underline
+}
